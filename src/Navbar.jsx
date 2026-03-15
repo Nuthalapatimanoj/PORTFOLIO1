@@ -1,4 +1,4 @@
-import "./CSS/Nav.css"
+import "./Nav.css"
 import { Link,Outlet } from 'react-router-dom';
 
 const Header = () => {

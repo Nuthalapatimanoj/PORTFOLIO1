@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GoMail } from "react-icons/go";
-import "./CSS/Footer.css";
+import "./Footer.css";
 
 const Footer = () => {
   return (
