@@ -1,0 +1,38 @@
+.contact {
+  height: 300px;
+  width: 100vw;
+  padding: 1em;
+  background-color: lightslategray;
+}
+.contact > h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+.contact > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+form > div {
+  display: flex;
+  gap: 20px;
+}
+form > button {
+  width: 150px;
+  padding: 5px;
+}
+form > input,
+form > div > textarea {
+  width: 300px;
+}
+.status-message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+.status-message:contains("Error") {
+  color: red;
+}

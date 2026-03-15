@@ -1,0 +1,50 @@
+.about {
+  height: 300px;
+  background-color: lightblue;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content div{
+    display: flex;
+    gap: 1em;
+}
+span{
+    color: darkblue;
+}
+.typing{
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid black; 
+  animation: typing 4s steps(40,end) forwards, blink 0.7s infinite;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+    border-right:none;
+  }
+}
+
+@keyframes blink{
+  50%{
+    border-color: transparent;
+  }
+}
+
+.typing span{
+  color: blue;
+  font-weight: bold;
+}

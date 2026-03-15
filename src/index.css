@@ -1,0 +1,53 @@
+:root {
+  font-family: "Times New Roman", Times, serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #760f0f;
+  font-weight: bold;
+  text-decoration: inherit;
+}
+
+button {
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+  padding: 3px;
+  color: whitesmoke;
+  background-color: #222cba;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+input{
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+label{
+  font-size: 18px;
+  font-weight: 600 ;
+  /* text-transform: uppercase; */
+}
+ 
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #6f75f4;
+  }
+  button:hover {
+    color: #104105;
+    background-color: #cf7f7f;
+  }
+  
+}

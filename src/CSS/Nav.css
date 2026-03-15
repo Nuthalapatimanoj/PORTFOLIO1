@@ -1,0 +1,27 @@
+.header{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+a{
+    color: inherit;
+}
+.header-left{
+    display: flex;
+    align-items: center; 
+    gap: 1em;
+}
+.header-left > img{
+    border-radius: 50%;
+}
+.header-right{
+    display: flex;
+    align-items: center; 
+    gap: 1em;
+}

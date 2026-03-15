@@ -1,0 +1,20 @@
+.skills {
+  width: 98vw;
+  background-color: rgb(213, 220, 225);
+  text-align: center;
+  padding: 1em;
+}
+h2 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  grid-template-rows: auto;
+  padding-top: 1em;
+}
+.icons img {
+  width: 40px;
+  border-radius: 10px;
+}
