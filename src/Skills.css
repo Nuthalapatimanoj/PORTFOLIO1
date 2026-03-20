@@ -1,8 +1,8 @@
 .skills {
-  width: 98vw;
+  width: 100vw;
   background-color: rgb(213, 220, 225);
   text-align: center;
-  padding: 1em;
+  padding: 2em;
 }
 h2 {
   text-decoration: underline;
@@ -11,7 +11,7 @@ h2 {
 .container {
   display: grid;
   grid-template-columns: repeat(4, 350px);
-  grid-template-rows: auto;
+  grid-template-rows: 100px;
   padding-top: 1em;
 }
 .icons img {

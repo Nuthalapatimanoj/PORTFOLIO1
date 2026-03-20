@@ -1,12 +1,11 @@
 .contact {
-  height: 300px;
   width: 100vw;
-  padding: 1em;
   background-color: lightslategray;
+  padding: 2em;
 }
 .contact > h2 {
   text-align: center;
-  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .contact > form {
   display: flex;
@@ -35,4 +34,18 @@ form > div > textarea {
 
 .status-message:contains("Error") {
   color: red;
+}
+form > button{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+form > button:hover{
+  background-color: chartreuse;
+  color: black;
 }
